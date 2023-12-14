@@ -5,7 +5,7 @@ import  time
 import  os
 import  sys
  
-exploit = './yuuki'
+exploit = './a'
 cmds    = sys.argv[1]
  
 p = Popen([exploit, ''], stdout=PIPE, stdin=PIPE, stderr=STDOUT)
